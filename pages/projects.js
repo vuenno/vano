@@ -1,8 +1,8 @@
-import Head from "next/head";
+import Nav from "../components/Nav";
+import Projects from "../components/Projects";
 import { motion, AnimatePresence } from "framer-motion";
-import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function projects() {
   return (
     <>
       <AnimatePresence>
@@ -29,15 +29,12 @@ function MyApp({ Component, pageProps }) {
           }}
           transition={{ duration: 0.5 }}
         >
-          <Head>
-            <title>V U E N N O</title>
-            <link rel="icon" type="image/x-icon" href="va.ico" />
-          </Head>
-          <Component {...pageProps} />
+          <Nav />
+          <Projects />
         </motion.div>
       </AnimatePresence>
     </>
   );
 }
 
-export default MyApp;
+export default projects;

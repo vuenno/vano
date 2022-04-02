@@ -5,7 +5,7 @@ function HomePage() {
         <h1 className="text-[90px] font-mono font-bold tracking-widest drop-shadow-lg ml-8 bg-gradient-to-r bg-clip-text text-transparent from-[#243B55]/95 to-slate-500 opacity-90 lg:text-[100px]">
           VUENNO
         </h1>
-        <p className="font-mono text-[16px] w-[400px] text-center font-semibold text-[#171717]/70 tracking-tighter">
+        <p className="font-mono text-[16px] w-[350px] text-center font-semibold text-[#171717]/70 tracking-tighter">
           A Front-End Developer, Gym Enthusiast and a fan of various TV Shows as
           well as music.
           <br />
